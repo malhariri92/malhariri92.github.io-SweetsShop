@@ -1,0 +1,85 @@
+<!-- Mutasem Alhariri CSCI1145 06/16/2019-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Menu/Alhossni's Sweets</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alhossni Sweets is a desserts shop in Columbus that specializes in
+ making Arbic desserts such as Baklava, kanafeh, Mabruma, Haressa, Ish Albulbel, Warbat, Namurah">
+<link href="css/style.css" rel="stylesheet">
+<script src="jquery-3.4.1.min.js"></script> 
+<script>
+$(function(){
+ $("button").click(function(){
+    alert("The item has been successfully added to your chart");
+  });
+}); 
+</script>
+</head>
+<body> 
+<div id="wrapper">
+<header> 
+<section class="logo">
+<img src="images/logo.jpg" alt="logo">
+ <h1> Alhossni Sweets </h1>
+ </section>
+ </header>
+ <nav>
+ <ul>
+ <li> <a href="index.html"> Home </a></li>
+ <li> <a href="menu.html">Menu</a></li>
+ <li> <a href="about.html"> About Us </a></li>
+ <li> <a href="contact.html"> Contact Us</a></li>
+ <li> <a href="signin.html"> Sign In</a></li>
+ </ul>
+ </nav>
+ <div>
+ <figure class="gallery"> <img src="images/baklava.png" alt="Baklava">
+ <figcaption class="desc"> Shuaibiat: 1/2lb For <strong class="price">$14.99</strong> <br>
+ <button> Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery"> <img src="images/baklava1.png" alt="Baklava">
+ <figcaption class="desc">Baklava: 1/2lb For<strong class="price"> $16.99</strong><br> 
+ <button>Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery"> <img src="images/baklava2.png" alt="Baklava">
+ <figcaption class="desc">Baklava Baluria: 1/2lb For <strong class="price">$15.00 </strong><br>
+ <button> Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery"> <img src="images/mabruma.png" alt="Mabruma">
+ <figcaption class="desc">Mabruma: 1/2lb For <strong class="price">$12.99</strong><br> 
+ <button>Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery"> <img src="images/warbat.png" alt="Warbat">
+ <figcaption class="desc">Warbat: For <strong class="price">$1.50</strong> ea<br>
+ <button>Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery"> <img src="images/fingers.png" alt="Baklava Rolls">
+ <figcaption class="desc">Baklava Rolls: 1/2lb For <strong class="price"> $12.99</strong> <br>
+ <button>Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery2"> <img src="images/bulbel.png" alt="Bulbel">
+ <figcaption class="desc2">Bulbel: 1/2lb For <strong class="price">$15.99</strong> <br>
+ <button> Add To Chart</button> </figcaption>
+ </figure>
+ <figure class="gallery2"> <img src="images/haressa.png" alt="Haressa">
+ <figcaption class="desc2">Haressa: 1 lb <br>For <strong class="price">$9.99</strong> <br>
+ <button> Add To Chart</button></figcaption>
+ </figure>
+ <figure class="gallery2" id="lasta"> <img src="images/kunafeh1.png" alt="Kunafeh">
+ <figcaption class="desc">Kanafeh: 1/2lb For <strong class="price">$15.99</strong> <br>
+ <button>Add To Chart</button></figcaption>
+ </figure>
+ </div>
+  <footer>
+  <div class="icon">
+ <img src="images/icon.png" alt="instagram Icon">
+ <img src="images/icon1.png" alt="Whatsapp Icon"> 
+ <img src="images/icon2.png" alt="Facebook Icon">
+ </div>
+  <h2>Alhossni Sweets &copy; 2019</h2>
+  </footer>
+ </div>
+</body>
+</html>

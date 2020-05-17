@@ -1,0 +1,409 @@
+*{
+box-sizing: border-box;
+}
+#wrapper{
+width: 960px;
+margin: 0 auto;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+background: #99DD2B;
+}
+nav {
+margin-bottom:0;
+height: 60px;
+background-color: #EF412E;
+border-bottom: #ffffff solid;
+}
+ nav ul{
+float:right;
+margin:0;
+padding:0;
+margin-top: 20px;
+}
+nav li{	
+
+display: inline;
+padding:0 20px 0 20px;
+}
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	
+}
+nav a:link {
+	color: #ffffff;
+}
+nav a:visited {
+	color: #42f5aa;
+}
+nav a:hover {
+	background-color: #ffffff;
+	color: #EF412E;
+	padding: 5px;
+}
+.icon img{
+	float: left;
+	margin:0;
+	padding: 5px;
+}
+
+.logo{
+margin-top: 0;
+height:300px;
+width: 100%;
+background-color: #ffffff;
+}
+.logo img{
+float:left;
+}
+.logo h1{
+text-align: center;
+font-size:85px;
+margin-top:0;
+margin-right: 70px;
+padding-top:30px;
+color: #EF412E;
+}
+#home-image{
+	padding: 0;
+	margin: 0;
+	
+}
+main{
+	background-color: #EF412E;
+	margin: 0;
+	border-top: #ffffff solid;
+}
+#left {
+color: #ffffff;
+border-right: #1F8193 dotted;
+float: left;
+margin-right: 40px;
+margin-top: 50px;
+}
+#left ul{
+margin: 0 20px 20px 0px;
+}
+#left h3{
+color:#99DD2B;
+margin: 0;
+padding: 10px;
+}
+.right{
+height: 300px;
+text-align:center;
+}
+.right h2{
+padding-top: 50px;
+margin: 0;
+padding-right: 80px;
+color:#99DD2B;
+}
+.right p {
+	color: #ffffff;
+	width: 900px;
+	letter-spacing: 2px;
+}
+a {
+	text-decoration: none;
+	color: #762e6c;
+	
+}
+.boldText{
+	font-style: italic;
+	color: #ffffff;
+}
+.gallery{
+	margin:0;
+	background-color: #ffffff;
+	width: 320px;
+	float: left;
+	border-bottom: 1px solid #EF412E;
+	
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.gallery2{
+	margin:0;
+	background-color: #ffffff;
+	width: 320px;
+	min-height: 420px;
+	float: left;
+}
+.gallery2 img{
+	width: 100%;
+	height: auto;
+}
+button{
+	margin-top: 5px;
+	background-color:#EF412E;
+	color: #ffffff;
+	padding: 2px;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+	color: #1F8193;
+}
+.desc2{
+	padding: 15px;
+	text-align: center;
+	color: #1F8193;
+}
+.price{
+	color:red;
+}
+
+.sub1{
+background-color: #EF412E;
+text-align:center;
+}
+.sub1 h2{
+padding-top: 5px;
+margin-top: 0;
+color:#99DD2B;
+}
+#contact_text{
+	background-color: #EF412E;
+	text-align:center;
+}
+#contact_text h2{
+	padding-top: 50px;
+margin-top: 0;
+padding-right: 50px;
+color:#99DD2B;
+}
+#contact_text p{
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+#contact_text h3{
+	padding-right: 20px;
+color:#99DD2B;
+}
+#sub2 {
+	    background-color: #EF412E;
+        text-align:center;
+}
+#sub2 h2{
+padding-top: 50px;
+margin: 0;
+color:#99DD2B;
+}
+#contact_inf{
+	color: blue;
+	margin:0 auto;
+	border: 3px dotted #1F8193;
+	padding: 20px;
+	width: 400px;
+}
+.contact_form{
+	max-width: 700px;
+	margin: 0 auto;
+	border: 2px solid #1F8193;
+	padding: 20px;
+}
+.contact_form li{
+	padding-bottom: 10px;
+	list-style-type: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+ input[type=text], input[type=email], input[type=tel], input[type=password]{
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: red;
+}
+.contact_form textarea{
+	padding:10px;
+	width: 500px;
+	height: 100px;
+	resize: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: red;
+}
+.signin_form{
+	margin: 0 auto;
+	padding: 20px;
+}
+.signin_form li {
+	padding-bottom: 10px;
+	list-style-type: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+input[type=submit]{
+	padding: 10px;
+	font-size:20px;
+	background-color: #99DD2B;
+	width: 200px;
+	color: blue;
+	text-transform: uppercase;
+	margin-bottom:20px;
+}
+footer{	
+padding: 10px;
+clear: both;
+text-align:center;
+color: #ffffff;
+border-top: #ffffff solid;
+background: linear-gradient(180deg,#EF412E,#99DD2B,#a50d0d);
+}
+
+@media screen and (max-width: 480px){
+	#wrapper{
+		width: 100%;
+
+}
+
+	.logo {
+		height: auto;
+	}
+	.logo img{
+		width: 100%;
+		float:none;
+		display:block;
+		margin: 0 auto;
+}
+	.logo h1{
+		font-size:50px;
+		margin-right: 0px;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+	nav {
+		width: 100%;
+		height:auto;
+		
+	}
+	nav ul{
+		margin-top:0px;
+		float:none;
+	}
+	nav li{	
+		display:block;
+		padding:5px 0px 5px 0px;
+		text-align: center;
+		border-bottom: 2px solid #ffffff;
+}
+    #home-image img{
+		width: 100%;
+		height: auto;
+	}
+	#about img{
+		width: 100%;
+		height: auto;
+	}
+    #left{
+	    display: none;
+    }
+    .desc{
+	padding: 3px;
+
+    }
+    .right{
+	height: auto;
+    }
+	.right h2{
+		text-align: center;
+		padding-right: 0;
+		margin: 0;
+	}
+    .right p {
+	margin-bottom: 0;
+	width: 100%;
+	padding: 15px;
+    font-family: 'Libre Baskerville', serif; 
+	}
+    .gallery{
+	width: 50%;
+	height: auto;
+	min-height: 300px;
+    }
+    .gallery img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+   }
+   .gallery2 {
+	width: 50%;
+	min-height: 300px;
+    }
+   .gallery2 img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+   }
+    .desc2{
+	border-bottom: 1px solid #EF412E;
+   }
+    #lasta{
+	width:100%;
+   }
+   #lasta img{
+	width:50%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+   }
+   #contact_text h2{
+    padding-right: 5px;
+	 padding-left: 5px;
+     text-align: center;
+   }
+   #contact_text h3{
+    padding-right: 10px;
+	 padding-left: 10px;
+     text-align: center;
+   }
+   #contact_text p{
+	   padding-right: 10px;
+	 padding-left: 10px;
+   font-family: 'Libre Baskerville', serif;
+   }
+   #contact_inf{
+	width: 90%;
+   }
+   .contact_form{
+	   width: 90%;
+   }
+   .contact_form li{
+	   margin: 0 auto;
+	   padding-right: 30px;
+   }
+   input[type=text], input[type=email], input[type=tel], input[type=password]{
+	width: 100%;
+	font-size: 14px;
+   }
+   .contact_form textarea{
+	   width: 100%;
+	   font-size: 14px;
+   }
+   input[type=submit]{
+	width: 55%;
+	font-size:12px;
+   }
+   .signin_form li{
+	   margin: 0 auto;
+	   padding-right: 30px;
+   }
+   .sub1 h2{
+	   margin: 0 auto;
+	   padding:0;
+   }
+   #sub2 h2{
+	   margin: 0 auto;
+   }
+   .icon img{
+	   float: none;
+	   margin: 0 auto;
+   }
+}
