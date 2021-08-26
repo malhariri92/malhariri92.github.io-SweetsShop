@@ -7,12 +7,12 @@ margin: 0 auto;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-background: #dd2b49;
+background: #e93a57;
 }
 nav {
 margin-bottom:0;
 height: 60px;
-background-color: #EF412E;
+background-color: #b13224;
 border-bottom: #ffffff solid;
 }
  nav ul{
@@ -69,16 +69,25 @@ color: #EF412E;
 #home-image{
 	padding: 0;
 	margin: 0;
-	
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#home-image img{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 main{
-	background-color: #EF412E;
+	background-color: #b13224;
 	margin: 0;
 	border-top: #ffffff solid;
 }
 #left {
 color: #ffffff;
-border-right: #1F8193 dotted;
+border-right: #000000 dotted;
 float: left;
 margin-right: 40px;
 margin-top: 50px;
